@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Main">
+      <UniqueIdentifier>{c1c8175b-08b3-44bd-b5a1-3f1363c85e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\类">
+      <UniqueIdentifier>{7875cd61-4b1b-4ff5-b251-499b3189e901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\类\类对象">
+      <UniqueIdentifier>{c8a54fe7-ff86-4580-86b6-d0eabd2b0e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\类\类功能">
+      <UniqueIdentifier>{ef49a7de-37f3-4979-b063-79136677323e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类">
+      <UniqueIdentifier>{4f43eacd-f5c3-42e0-aff2-dd63e480685d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类\类对象的实现">
+      <UniqueIdentifier>{328cf40c-c694-4c15-8241-b457cdf85995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类\类功能的实现">
+      <UniqueIdentifier>{3b2cc45f-c271-4f88-9b5f-00165cbe5e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameMain">
+      <UniqueIdentifier>{eba8ba0d-eefb-44cb-87a1-f7bf10a4466a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainTank.cpp">
+      <Filter>源文件\类\类对象的实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件\类\类功能的实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>源文件\类\类对象的实现</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Tank.cpp">
+      <Filter>源文件\类\类对象的实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>源文件\类\类功能的实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>源文件\类\类功能的实现</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="other.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoop.cpp">
+      <Filter>源文件\GameMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainTank.h">
+      <Filter>头文件\类\类对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>头文件\类\类对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件\类\类功能</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_Tank.h">
+      <Filter>头文件\类\类对象</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>头文件\类\类功能</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>头文件\类\类功能</Filter>
+    </ClInclude>
+    <ClInclude Include="allfuns.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
